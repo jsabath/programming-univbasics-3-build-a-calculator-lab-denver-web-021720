@@ -22,9 +22,8 @@ def modulo(num1, num2)
   mod = num1 % num2
   return mod
 end
-require cmath
 
 def square_root(num)
-  square = sqrt(num)
+  square = Math.sqrt(num)
   return square
 end
