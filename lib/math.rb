@@ -1,5 +1,7 @@
 def addition(num1, num2)
-  puts num1 + num2
+  num1 = 2
+  num2 = 3
+  num1 + num2
   return addition(num1, num2)
 end
 
